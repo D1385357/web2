@@ -42,7 +42,6 @@ body {
   z-index: 2;
 }
 
-/* 標題（含logo置中） */
 .title {
   display: flex;
   justify-content: center;
@@ -53,19 +52,16 @@ body {
   margin-bottom: 5px;
 }
 
-/* 👉 Twitch logo 放這 */
 .title img {
   width: auto;
   height: 28px;
 }
 
-/* 輸入區 */
 .input-group {
   margin-bottom: 5px;
   position: relative;
 }
 
-/* 包裹 input 與 icon，讓 icon 能相對於 input 垂直置中 */
 .input-wrapper {
   position: relative;
   width: 100%;
@@ -79,17 +75,15 @@ body {
   border: 1px solid #555;
   background: #0e0e10;
   color: white;
-  box-sizing: border-box; /* 👉 防止超出 */
+  box-sizing: border-box;
 }
 
-/* 👉 focus 變 Twitch 紫 */
 .input-group input:focus {
   outline: none;
   border: 1px solid #9147ff;
   box-shadow: 0 0 5px #9147ff;
 }
 
-/* 幫助連結（密碼輸入與登入按鈕之間） */
 .help-row {
   margin: 8px 0 10px 0;
   display: flex;
@@ -104,18 +98,16 @@ body {
   cursor: pointer;
 }
 
-/* 👁 icon（置中 + 放大） */
 .toggle-eye {
   position: absolute;
   right: 12px;
   top: 50%;
-  transform: translateY(-50%); /* 垂直置中相對於 .input-wrapper */
+  transform: translateY(-50%);
   cursor: pointer;
   font-size: 18px;
-  line-height: 1; /* 防止基線擠壓 */
+  line-height: 1;
 }
 
-/* 按鈕 */
 .btn {
   width: 100%;
   padding: 8px;
@@ -132,7 +124,6 @@ body {
   cursor: not-allowed;
 }
 
-/* 第三方登入按鈕 */
 .alt-btn {
   background: #2a2a2d;
   display: flex;
@@ -141,13 +132,11 @@ body {
   gap: 5px;
 }
 
-/* 👉 第三方 logo 放這 */
 .alt-btn img {
   width: 18px;
   height: 18px;
 }
 
-/* 分隔線 */
 .divider {
   display: flex;
   align-items: center;
@@ -166,7 +155,7 @@ body {
   opacity: 0.8;
 }
 
-/* 底部註冊文字 */
+
 .signup {
   text-align: center;
   margin-top: 15px;
